@@ -345,3 +345,14 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 1024px) {
+  #summary-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #summary-stats p {
+    text-align: center;
+  }
+}
